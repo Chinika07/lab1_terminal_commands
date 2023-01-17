@@ -110,16 +110,19 @@
 35. **git log:**
     Displays what has happened in the repository so far
 
-36. **git remote:**
-    Links the local repository to GitHub, i.e. git remote add origin * *LINK FROM GITHUB* *
+36. **git branch -M main:**
+    Copied from GitHub after creating new repository (first line that is copied)
 
-37. **git push:**
-    Uploads one repository to the other, needs the place we are sending code to and the branch we are sending it from, i.e. git push -u origin main
+37. **git remote:**
+    Links the local repository to GitHub, i.e. git remote add origin * *LINK FROM GITHUB* * (second line copied from GitHub after creating new repository)
 
-38. **git clone:**
+38. **git push:**
+    Uploads one repository to the other, needs the place we are sending code to and the branch we are sending it from, i.e. git push -u origin main (third line copied from GitHub after creating new repository)
+
+39. **git clone:**
     Copying a repository from Github, i.e. git clone * *SSH URL FROM GITHUB GOES HERE* * 
     
     **- NOTE:** Do not clone a repository inside another one
 
-39. **q:**
+40. **q:**
     Exit - returns us back to the command line
