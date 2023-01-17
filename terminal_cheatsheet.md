@@ -24,4 +24,20 @@
 8. mkdir (make directory):
     Makes a new directory
 
-9. touch:
+9. touch:  
+    Creates a new file in the directory 
+    
+    **NOTE**: Need to add the **file extension, e.g. .txt or .pdf**
+
+10. open:
+    Opens directories, e.g. 'open my_file.txt'
+
+11. mv:
+    Moves a file    
+    **NOTE**: Need to state the one we're moving and where we are moving it to, e.g. 'mv my_file.txt ..' 
+    
+12. ..: 
+     Means the 'directory ABOVE this one'. E.g. Will move the file up a level (into the folder before)
+
+13. . :
+    Means this 'current directory'
