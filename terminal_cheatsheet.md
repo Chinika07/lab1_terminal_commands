@@ -20,3 +20,8 @@
 
 7. tab key:
     Auto-completes the command, e.g. the directory name
+
+8. mkdir (make directory):
+    Makes a new directory
+
+9. touch:
