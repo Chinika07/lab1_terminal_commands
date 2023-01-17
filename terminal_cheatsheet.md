@@ -35,88 +35,91 @@
 11. **open:**
     Opens directories, e.g. 'open my_file.txt'
 
-12. **mv:**
+12. **code .:**
+    Opens the folder in VS Code - can create a file in VS Code which will now be in the folder
+
+13. **mv:**
     Moves a file    
     **- NOTE:** Need to state the one we're moving and where we are moving it to, e.g. 'mv my_file.txt ..' 
     
-13. **.. :**
+14. **.. :**
      Means the 'directory **above**' , e.g. will move the file up a level (into the folder before)
 
-14. **. :**
+15. **. :**
     Means this '**current** directory'
 
-15. **cp:**
+16. **cp:**
     Copies a file
         
     **- NOTE:** First need to provide the name of what we want to copy and then the location we want to copy it to, e.g. cp profile_picture my_directory 
 
-16. **cp -r:**
+17. **cp -r:**
     Copies the entire directory
 
-17. **rm:**
+18. **rm:**
     Deletes files
 
-18. **rm -r:**
+19. **rm -r:**
     Deletes a directory (sometimes asks confirmation if you want to do so)
 
-19. **rm -f:**
+20. **rm -f:**
     Forces removal - does not ask confirmation if you want to delete something
 
-20. **clear:**
+21. **clear:**
     Clears the terminal file (but if we scroll up, will see the previous work)
 
-21. **cat:**
+22. **cat:**
     Outputs the content of the file, e.g. cat cohortnumber.txt
 
-22. **echo:**
+23. **echo:**
     Places text into the file, e.g. echo "I'm in Cohort 8" >> cohortnumber.txt
 
-23. **'>>' :**
+24. **'>>' :**
     Adds new text to the file - adds a new line
 
-24. **'>' :**
+25. **'>' :**
     Overrides the current text in the file with this text
 
-25. **control + C:**
+26. **control + C:**
     Press this to get out of a command we are stuck in, e.g. 'dquote' 
 
-26. **dquote:**
+27. **dquote:**
     Means there is a quotation mark missing somewhere
 
-27. **pbcopy:**
+28. **pbcopy:**
     Copies text to the clipboard, e.g. pbcopy < * *TEXT* *
 
-28. **git init:**
+29. **git init:**
     Creates a new git repository in the directory
 
-29. **git:(main):**
+30. **git:(main):**
     'Git' shows the directory is part of a Git repository and 'main' is the active branch in the repository
 
-30. **git status:**
+31. **git status:**
     Displays the state of the current directory, shows us the changes that have been made and which haven't
 
-31. **git commit:**
+32. **git commit:**
     Creates a record of the files that have been staged (step 1) and details of what has changed 
 
-32. **git commit -m " ":**
+33. **git commit -m " ":**
     '-m' stands for 'message'. Should give a description of what has changed and what has changed in them (needs to give anyone who reads it an idea of what is happening)
 
-33. **git add .:**
+34. **git add .:**
     Tells Git to stage all changes in the current directory (current directory = .)
 
-34. **git log:**
+35. **git log:**
     Displays what has happened in the repository so far
 
-35. **git remote:**
+36. **git remote:**
     Links the local repository to GitHub, i.e. git remote add origin * *LINK FROM GITHUB* *
 
-36. **git push:**
+37. **git push:**
     Uploads one repository to the other, needs the place we are sending code to and the branch we are sending it from, i.e. git push -u origin main
 
-37. **git clone:**
+38. **git clone:**
     Copying a repository from Github, i.e. git clone * *SSH URL FROM GITHUB GOES HERE* * 
     
     **- NOTE:** Do not clone a repository inside another one
 
-38. **q:**
+39. **q:**
     Exit - returns us back to the command line
