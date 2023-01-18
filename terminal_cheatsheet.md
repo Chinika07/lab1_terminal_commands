@@ -126,3 +126,7 @@
 
 40. **q:**
     Exit - returns us back to the command line
+
+41. **history:**
+    Shows our whole terminal history - all the commands we have used
+    
